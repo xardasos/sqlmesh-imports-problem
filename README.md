@@ -4,7 +4,7 @@ Reproducer project for the inconsistent behavior of sqlmesh imports when using m
 Execute `sqlmesh plan`.
 
 Using docker:
-1. docker build -t local/sqlmesh_imports_problm .
+1. docker build -t local/sqlmesh_imports_problem .
 2. docker run -it --entrypoint=/bin/bash local/sqlmesh_imports_problem
 3. `sqlmesh plan`
 
