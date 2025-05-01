@@ -11,7 +11,7 @@ Using docker:
 ### Current behavior
 ```
 Error: Failed to load model definition at '/app/models/full_model.sql'.
-cannot import name '_generate_next_value_' from 'enum' (/usr/local/lib/python3.13/enum.py)
+cannot import name '_generate_next_value_' from 'enum' (/usr/local/lib/python3.12/enum.py)
 ```
 Commenting out the usage of EITHER `macro1` or `macro2` (both macros use the same import)
 in the [affected model](sqlmesh-example/models/full_model.sql) makes the import error disappear.
